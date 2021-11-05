@@ -2,6 +2,7 @@
 # pip install pygame
 
 import turtle
+import winsound
 
 wn = turtle.Screen()
 wn.title("Pong")
@@ -36,8 +37,8 @@ ball.shape("circle")
 ball.color("white")
 ball.penup()
 ball.goto(0,0)
-ball.dx = 0.6
-ball.dy = -0.6
+ball.dx = 0.4
+ball.dy = -0.4
 
 pen = turtle.Turtle()
 pen.speed(0)
